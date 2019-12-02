@@ -7,16 +7,16 @@ input = [int(x) for x in contents.split(',')]
 class Computer():
     
     def __init__(self,code): #Initialise a Computer instance
-        self.code=code
-        self.point=0
-        self.step=0
+        self.code=code #Input program
+        self.point=0 #Position of code pointer
+        self.step=0 #Number of steps run
         self.complete=False
         
-    def __str__(self):
+    def __str__(self): #Print current computer state
         ret='Step: '+str(self.step)+' Pointer: '+str(self.point)+'\n'+str(self.code)
         return(ret)
         
-    def halt(self):
+    def halt(self): #Set program state to complete when halt code is found
         print('PROGRAM HALTING')
         print(self)
         self.complete=True
@@ -33,7 +33,7 @@ class Computer():
     
     def runStep(self):
         op=self.code[self.point]
-        if op==99:
+        if op==99: #Halt instruction
             self.halt()
         else:
             x=(self.code[self.code[self.point+1]],self.code[self.code[self.point+2]])
@@ -45,8 +45,8 @@ class Computer():
             else:
                 print('Invalid operator '+str(op)+' at position '+str(self.point))
             self.code[dest]=res #Assign calculated result to specified destination
-            self.point+=4 #Move to next instruction
-            self.step+=1 #Count steps run
+            self.point+=4 #Move to next instruction - this may need to change in future if different-length instructions are added
+            self.step+=1 #Increment step count
             
 def solveA(input):
     input[1]=12
@@ -68,7 +68,6 @@ def solveB(input):
             if comp.runProg()==19690720:
                 print('n='+str(n)+', v='+str(v))
                 return(100*n+v)
-                return(comp.runProg())
     
 retB=solveB(input) 
                 
