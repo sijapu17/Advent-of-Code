@@ -1,0 +1,21 @@
+r5=0
+START:
+r3=r5|65536
+r5=10828530
+A:
+r2=r3&255
+r5+=r2
+r5&=16777215
+r5*=65889
+r5&=16777215
+if 256>r3: r2=1, GOTO GENERATE
+					 
+r2=0
+B:
+r1=r2+1
+r1*=256
+if r3<r1: r3=r2, GOTO A
+else r2+=1, GOTO B
+
+GENERATE
+Generate r5, return to START
