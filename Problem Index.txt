@@ -1,0 +1,51 @@
+2018-01: Summing frequencies - simple counting / looping
+2018-02: Checksums of box IDs - string manipulation
+2018-03: Overlapping squares - 2D coordinates
+2018-04: Guard shifts - 1D coordinates
+2018-05: Reacting polymers - string manipulation
+2018-06: Distances from points - 2D coordinates
+2018-07: Dependent tasks - looping / simulation
+2018-08: Node metadata - trees
+2018-09: Marble game - linked list
+2018-10: Star message - 2D coordinates / motion
+2018-11: Fuel cell grid - 2D coordinates
+2018-12: Flowerpots - cellular automata
+2018-13: Mine carts - 2D coordinates / simulation
+2018-14: Hot choc recipes - sequence
+2018-15: Elves v Goblins - simulation / 2D coordinates
+2018-16: Opcodes 1 - machine code
+2018-17: Water flow - simulation / 2D coordinates
+2018-18: Lumber yard - cellular automata / 2D coordinates
+2018-19: Opcodes 2 - machine code
+2018-20: REGEX map - sequence
+2018-21: Opcodes 3 - machine code
+2018-22: Cave maze - pathfinding (A*) / 2D coordinates
+2018-23: Bot ranges - 3D coordinates / pathfinding(A*)
+2018-24: Immune system - simulation
+2018-25: Constellations - 4D coordinates
+
+2019-01: Fuel calculations - simple recursion
+2019-02: Intcodes 1 (VM basic setup) - machine code
+2019-03: Overlapping wires - 2D coordinates
+2019-04: Password checks - string manipulation
+2019-05: Intcodes 2 (VM advanced setup) - machine code
+2019-06: Orbits - trees
+2019-07: Intcodes 3 (VM array) - machine code / simulation
+2019-08: 
+2019-09: 
+2019-10: 
+2019-11: 
+2019-12: 
+2019-13:
+2019-14:
+2019-15:
+2019-16:
+2019-17:
+2019-18:
+2019-19:
+2019-20:
+2019-21:
+2019-22:
+2019-23:
+2019-24:
+2019-25:
