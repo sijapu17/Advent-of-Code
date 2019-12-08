@@ -39,7 +39,7 @@ def decodeImage(input,width,height): #Create coordinate dictionary with first no
 image=decodeImage(input, width,height)
     
 def displayImage(image,width,height): #Display ASCII version of image
-    font={0:'.', 1:'#'} #Convert 1 and 0 to 'black' and 'white'
+    font={0:' ', 1:'#'} #Convert 1 and 0 to 'black' and 'white'
     for h in range(height):
         line=''
         for w in range(width):
