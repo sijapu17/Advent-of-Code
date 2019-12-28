@@ -114,7 +114,7 @@
 2019-10: Rotating asteroids - 2D coordinates / geometry
 2019-11: Intcodes 5 (hull-painting robot) - 2D coordinates
 2019-12: Moons - 3D coordinates / motion
-2019-13:
+2019-13: Intcodes 6 (Breakout) - machine code / simulation
 2019-14:
 2019-15:
 2019-16:
