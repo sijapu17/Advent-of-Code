@@ -202,8 +202,35 @@ class System(): #Top-level class which runs BFS queue of droid instances to crea
                         self.queue.appendleft(node)
                 elif status==2: #If oxygen system is found, print map and return number of steps away
                     self.map[newPos]='O'
-                    return(steps)
-        
+                    print(str(steps)+' steps')
+                    return(node.droid) #Return droid sat at position of oxygen system, ready for part 2
+
+    def runBFS2(self,droid): #Run BFS queue from oxygen system
+        nodesExplored=0
+        furthest=0 #Furthest hallway position found from oxyen system
+        for d in ('N','S','W','E'):
+            node=Node(droid.__copy__(),d,complex(0,0),0) #Create nodes for droid travelling in each direction from oxygen system
+            self.queue.appendleft(node)
+        while len(self.queue)>0:
+            node=self.queue.pop() #Pop next node from queue
+            nodesExplored+=1
+            #print(node)
+            newPos=node.pos+self.complexDirs[node.nextDir] #Coordinates of attempted new position
+            steps=node.steps+1
+            if self.map[newPos]==' ': #Only explore node if new position is unknown
+                status=node.droid.move(node.nextDir) #Attempt to move droid in given direction
+                #print(str(status))
+                if status==0: #If droid hit a wall, mark on map and discard node
+                    self.map[newPos]='#'
+                elif status in (1,2): #If droid moved into new hallway, create new nodes in each direction to explore
+                    self.map[newPos]='.'
+                    if steps>furthest: #Update furthest steps from oxygen system
+                        furthest=steps
+                    for d in ('N','S','W','E'):
+                        node=Node(node.droid.__copy__(),d,newPos,steps) #Create nodes for droid travelling in each direction from origin
+                        self.queue.appendleft(node)
+        return(furthest)
+
 
 class Droid(): #Repair droid
     
@@ -234,4 +261,11 @@ def solveA(code):
 
 retA=solveA(code)     
         
-        
+def solveB(code):
+    droid=solveA(code) #Find droid instance at oxygen system
+    system=System(code)
+    nSteps=system.runBFS2(droid)
+    print(system)
+    return(nSteps)
+
+retB=solveB(code)
