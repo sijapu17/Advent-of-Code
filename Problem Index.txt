@@ -115,10 +115,10 @@
 2019-11: Intcodes 5 (hull-painting robot) - 2D coordinates
 2019-12: Moons - 3D coordinates / motion
 2019-13: Intcodes 6 (Breakout) - machine code / simulation
-2019-14:
-2019-15:
-2019-16:
-2019-17:
+2019-14: Fuel reactions - trees
+2019-15: Intcodes 7 (Oxygen vents) - machine code / pathfinding (BFS)
+2019-16: Signal patterns - sequence
+2019-17: Intcodes 8 (Scaffold traversal) - machine code / path compression
 2019-18:
 2019-19:
 2019-20:
