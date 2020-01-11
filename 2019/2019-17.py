@@ -160,15 +160,19 @@ class Computer():
             self.step+=1 #Increment step count
 
 
-class System(): #Scaffold system
+class System(): #Drone deployment system
     
     def __init__(self,code,p=0):
         self.code=code
         self.brain=Computer(self.code,point=p) #Load droid with intcode
         self.map=defaultdict(lambda:'.')
-        self.loadMap()
     
     def __str__(self):
+        #Find bounds of map
+        self.minX=0
+        self.minY=0
+        self.maxX=int(max(self.map,key=lambda x:x.real).real)
+        self.maxY=int(max(self.map,key=lambda x:x.imag).imag)
         ret1='  '
         ret2='  '
         ret3=''
@@ -190,23 +194,19 @@ class System(): #Scaffold system
                 ret3+='\n'
         return(ret1+'\n'+ret2+'\n'+ret3) 
     
-    def loadMap(self): #Run program to display map
-        i,j=0,0
-        while not self.brain.complete:
-            self.brain.runStep() #Run intcode until halt
-            if len(self.brain.output)==1:
-                tile=chr(self.brain.getOutput())
-                if tile=='\n': #Newline
-                    j+=1
-                    i=0
-                else:
-                    self.map[complex(i,j)]=tile
-                    i+=1
-        #Find bounds of map
-        self.minX=0
-        self.minY=0
-        self.maxX=int(max(self.map,key=lambda x:x.real).real)
-        self.maxY=int(max(self.map,key=lambda x:x.imag).imag)
+    def scanArea(self,X,Y): #Run program to scan area and count how many points are affected by beam 
+        count=0
+        for j in range(Y+1):
+            print('Y='+str(j))
+            for i in range(X+1):
+                self.brain.loadInputList([i,j])
+                while not self.brain.complete:
+                    self.brain.runStep() #Run intcode until halt
+                    if len(self.brain.output)==1:
+                        point=self.brain.getOutput()
+                        self.map[complex(i,j)]=tile
+                        count+=point #Add 1 to count if beam is active in location
+                        break
         
     def runRobot(self,cmprs): #Run cleaning robot
         self.brain=Computer(self.code) #Reset robot
