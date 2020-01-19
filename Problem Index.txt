@@ -120,8 +120,8 @@
 2019-16: Signal patterns - sequence
 2019-17: Intcodes 8 (Scaffold traversal) - machine code / path compression
 2019-18: Bot maze - pathfinding (A*) / 2D coordinates
-2019-19:
-2019-20:
+2019-19: Intcodes 9 (Tractor beam) - machine code / 2D coordinates
+2019-20: Portal maze - pathfinding (A*)
 2019-21:
 2019-22:
 2019-23:
