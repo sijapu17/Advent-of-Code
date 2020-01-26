@@ -123,7 +123,7 @@
 2019-19: Intcodes 9 (Tractor beam) - machine code / 2D coordinates
 2019-20: Portal maze - pathfinding (A*)
 2019-21: Intcodes 10 (Springdroid) - machine code / logic
-2019-22:
+2019-22: Card shuffle - number theory
 2019-23:
 2019-24:
 2019-25:

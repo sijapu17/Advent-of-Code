@@ -1,0 +1,5 @@
+deal into new stack
+deal with increment 3
+cut 7
+deal with increment 4
+cut -2
