@@ -1,0 +1,40 @@
+north
+take festive hat
+west
+take sand
+east
+east
+take prime number
+west
+south
+east
+north
+north
+take mug
+south
+south
+south
+east
+north
+east
+east
+take astronaut ice cream
+west
+west
+south
+west
+west
+south
+south
+take mutex
+south
+take boulder
+east
+south
+drop sand
+drop astronaut ice cream
+drop festive hat
+drop boulder
+drop prime number
+drop mug
+drop mutex
