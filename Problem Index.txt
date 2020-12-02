@@ -127,3 +127,29 @@
 2019-23: Intcodes 11 (VM array) - machine code / simulation
 2019-24: Bugs - cellular automata / 2D coordinates
 2019-25: Intcode 12 (Text Adventure) - machine code
+
+2020-01: 2020 sums - simple loops
+2020-02: Password checks - string manipulation
+2020-03:
+2020-04:
+2020-05:
+2020-06:
+2020-07:
+2020-08:
+2020-09:
+2020-10:
+2020-11:
+2020-12:
+2020-13:
+2020-14:
+2020-15:
+2020-16:
+2020-17:
+2020-18:
+2020-19:
+2020-20:
+2020-21:
+2020-22:
+2020-23:
+2020-24:
+2020-25:
