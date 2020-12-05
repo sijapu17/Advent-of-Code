@@ -1,4 +1,4 @@
-#Advent of Code 2020 Day 3
+#Advent of Code 2020 Day 4
 
 import re
 
