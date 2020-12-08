@@ -135,7 +135,7 @@
 2020-05: Boarding passes - binary to integer
 2020-06: Customs forms - set union and intersection
 2020-07: Luggage - recursion
-2020-08:
+2020-08: Games console - opcode
 2020-09:
 2020-10:
 2020-11:
