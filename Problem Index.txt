@@ -137,7 +137,7 @@
 2020-07: Luggage - recursion
 2020-08: Games console - opcode
 2020-09: Encoding - simple loops
-2020-10:
+2020-10: Adaptors - combinatorics
 2020-11:
 2020-12:
 2020-13:
