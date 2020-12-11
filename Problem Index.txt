@@ -138,7 +138,7 @@
 2020-08: Games console - opcode
 2020-09: Encoding - simple loops
 2020-10: Adaptors - combinatorics
-2020-11:
+2020-11: Waiting room - cellular automata / 2D coordinates
 2020-12:
 2020-13:
 2020-14:
