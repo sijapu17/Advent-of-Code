@@ -53,9 +53,6 @@ class Buses2(): #Timetable of buses (Part 2)
         return(combined['period']-combined['offset'])
 
 def combine_2_buses(b1,b2): #Combine 2 buses into 1 'bus' that matches the period/offset of when the two buses align
-    now = datetime.now()
-    current_time = now.strftime("%H:%M:%S")
-    print("Current Time =", current_time)
     print(str(b2))
     t=b1['offset'] #First departure time for b1
     while True: #Increase t by steps of b1's period until t matches b2's period/offset
