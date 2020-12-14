@@ -140,7 +140,7 @@
 2020-10: Adaptors - combinatorics
 2020-11: Waiting room - cellular automata / 2D coordinates
 2020-12: Ship navigation - 2D coordinates
-2020-13:
+2020-13: Docking Data - bit masks
 2020-14:
 2020-15:
 2020-16:

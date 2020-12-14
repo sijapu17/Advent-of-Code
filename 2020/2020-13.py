@@ -1,7 +1,6 @@
 #Advent of Code 2020 Day 13
 
 from functools import reduce
-from datetime import datetime
 
 f = open('C:/Users/Simon/OneDrive/Home Stuff/Python/Advent of Code/2020/2020-13.txt')
 contents = f.read()
