@@ -144,7 +144,7 @@
 2020-14: Docking Data - bit masks
 2020-15: Counting game - sequence
 2020-16: Train tickets - sets
-2020-17:
+2020-17: COnway Cubes - cellular automata / 3D/4D coordinates
 2020-18:
 2020-19:
 2020-20:
