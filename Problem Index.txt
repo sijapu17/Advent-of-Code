@@ -95,7 +95,7 @@
 2018-17: Water flow - simulation / 2D coordinates
 2018-18: Lumber yard - cellular automata / 2D coordinates
 2018-19: Opcodes 2 - machine code
-2018-20: REGEX map - sequence
+2018-20: Regex map - sequence
 2018-21: Opcodes 3 - machine code
 2018-22: Cave maze - pathfinding (A*) / 2D coordinates
 2018-23: Bot ranges - 3D coordinates / pathfinding(A*)
@@ -146,10 +146,10 @@
 2020-16: Train tickets - sets
 2020-17: Conway Cubes - cellular automata / 3D/4D coordinates
 2020-18: Operation order - expression evaluation
-2020-19:
-2020-20:
-2020-21:
-2020-22:
+2020-19: Recursive rules - Regex / recursion
+2020-20: Jurassic Jigsaw - 2D coordinates / pattern matching / rotation
+2020-21: Allergens - pattern matching
+2020-22: Crab combat - simulation / recursion
 2020-23:
 2020-24:
 2020-25:

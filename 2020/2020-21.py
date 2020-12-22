@@ -57,7 +57,6 @@ class Menu():
                     if a in f.allergens and i not in f.ingredients:
                         if a in self.ing_all_possibilities[i]:
                             self.ing_all_possibilities[i].remove(a)
-                            #print(i+' does not contain '+a)
 
         #Remove non-allergens
         self.ing_all_possibilities={k: v for k, v in self.ing_all_possibilities.items() if len(v)>0}
@@ -78,10 +77,6 @@ class Menu():
         pairs.sort(key=lambda x:x[1])
         ret=','.join([x[0] for x in pairs])
         print(ret)
-
-
-
-
 
 menu=Menu(input)
 print(menu.count_nonallergenic_ingredients())
