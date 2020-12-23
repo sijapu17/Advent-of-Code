@@ -150,6 +150,6 @@
 2020-20: Jurassic Jigsaw - 2D coordinates / pattern matching / rotation
 2020-21: Allergens - pattern matching
 2020-22: Crab combat - simulation / recursion
-2020-23:
+2020-23: Crab cubs - simulation / linked list
 2020-24:
 2020-25:
