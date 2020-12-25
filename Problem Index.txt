@@ -152,4 +152,4 @@
 2020-22: Crab combat - simulation / recursion
 2020-23: Crab cups - simulation / linked list
 2020-24: Hex tiles - cellular automata / hex coordinates
-2020-25:
+2020-25: Cryptanalysis - cryptography
