@@ -156,8 +156,8 @@
 
 2021-01: Sub Depth - simple loops
 2021-02: Sub path - simple loops
-2021-03: 
-2021-04: 
+2021-03: Common bits - simple loops
+2021-04: Bingo - simulation
 2021-05: 
 2021-06: 
 2021-07: 
