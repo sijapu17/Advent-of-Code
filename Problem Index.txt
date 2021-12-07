@@ -160,7 +160,7 @@
 2021-04: Bingo - simulation
 2021-05: Vents - 2D coordinates
 2021-06: Lantern Fish - simulation / optimisation
-2021-07: 
+2021-07: Crab Subs - simple loops
 2021-08: 
 2021-09: 
 2021-10: 
