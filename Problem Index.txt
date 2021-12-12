@@ -161,7 +161,7 @@
 2021-05: Vents - 2D coordinates
 2021-06: Lantern Fish - simulation / optimisation
 2021-07: Crab Subs - simple loops
-2021-08: 
+2021-08: Seven Segment Search - manual algorithm
 2021-09: Lava basins - 2D coordinates / BFS
 2021-10: 
 2021-11: Octopus flash - cellular automata / 2D coordinates
