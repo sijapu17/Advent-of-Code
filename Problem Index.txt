@@ -171,7 +171,7 @@
 2021-15: Cave traversal - 2D coordinates / A* algorithm
 2021-16: Packet Decoder - VM / recursion
 2021-17: Probe Launch - 2D coordinates / simulation
-2021-18: 
+2021-18: Lanternfish Addition - data structures / recursion
 2021-19: 
 2021-20: 
 2021-21: 
