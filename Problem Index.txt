@@ -172,7 +172,7 @@
 2021-16: Packet Decoder - VM / recursion
 2021-17: Probe Launch - 2D coordinates / simulation
 2021-18: Lanternfish Addition - data structures / recursion
-2021-19: 
+2021-19: Beacon scanners - 3D coordinates / rotation
 2021-20: 
 2021-21: 
 2021-22: Overlapping cubes - 3D intersection
