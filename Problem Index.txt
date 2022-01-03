@@ -177,5 +177,5 @@
 2021-21: Dirac Dice - simulation / recursion
 2021-22: Overlapping cubes - 3D intersection
 2021-23: Amphipod room-finding - A* algorithm
-2021-24: 
+2021-24: Arithmetic Logic Unit - VM interpretation
 2021-25: 
