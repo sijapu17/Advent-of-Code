@@ -187,7 +187,7 @@
 2022-05: Crate Stacking - simple loops
 2022-06: Unique Signals - string manipulation
 2022-07: File system - recursion
-2022-08:
+2022-08: Visible trees - 2D coordinates
 2022-09:
 2022-10:
 2022-11:
