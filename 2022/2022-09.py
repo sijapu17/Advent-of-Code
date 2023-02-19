@@ -11,10 +11,10 @@ def non_adjacent(v): #Determine whether vector v is more than 1 orthogonal/diago
     return(max(abs(v.real),abs(v.imag))>1)
 
 class System():
-    def __init__(self,inp) -> None:
+    def __init__(self,inp,size) -> None:
         self.inp=inp
-        self.h=complex(0,0) #Position of head
-        self.t=complex(0,0) #Position of tail
+        self.size=size
+        self.rope=[complex(0,0)]*size
         self.t_visited=set([complex(0,0)])
         self.dirs={'L':complex(-1,0),'R':complex(1,0),'U':complex(0,1),'D':complex(0,-1)}
 
@@ -23,22 +23,19 @@ class System():
         for j in reversed(range(6)):
             for i in range(6):
                 p=complex(i,j)
-                match p:
-                    case self.h:
-                        ret+='H'
-                    case self.t:
-                        ret+='T'
-                    case 0:
-                        ret+='o'
-                    case _ if p in self.t_visited:
-                        ret+='#'
-                    case _:
-                        ret+='.'
+                if p==self.rope[0]:
+                    ret+='H'
+                elif p in self.rope:
+                    ret+=str(self.rope.index(p))
+                elif p==0:
+                    ret+='o'
+                elif p in self.t_visited:
+                    ret+='#'
+                else:
+                    ret+='.'
             ret+='\n'
         return(ret)
                     
-
-
     def run_moves(self): #Simulate all moves
         #print(self)
         for row in self.inp:
@@ -49,21 +46,24 @@ class System():
     def move_head(self,move): #Move head according to 1 row of movement instruction
         d=self.dirs[move.split()[0]] #Convert direction into complex vector
         n=int(move.split()[1])
-        for i in range(n): #Move head 1 step, then move tail to catch up
-            self.h+=d
-            self.move_tail()
+        for i in range(n): #Move head 1 step, then move each section to catch up
+            self.rope[0]+=d
+            for s in range(1,self.size):
+                self.move_section(s)
+            self.t_visited.add(self.rope[-1])
             #print(self)
 
-    def move_tail(self): #Move tail after every single square of head movement
-        v=self.h-self.t #Vector of head's position relative to tail
+    def move_section(self,s): #Move section s after every single square of head movement
+        v=self.rope[s-1]-self.rope[s] #Vector of section's position relative to the section in front
         if non_adjacent(v):
             if v.real==0:
-                self.t+=complex(0,sign(v.imag))
+                self.rope[s]+=complex(0,sign(v.imag))
             elif v.imag==0:
-                self.t+=complex(sign(v.real),0)
+                self.rope[s]+=complex(sign(v.real),0)
             else:
-                self.t+=complex(sign(v.real),sign(v.imag))
-            self.t_visited.add(self.t)
+                self.rope[s]+=complex(sign(v.real),sign(v.imag))
 
-system=System(inp)
+system=System(inp,2)
+print(system.run_moves())
+system=System(inp,10)
 print(system.run_moves())
