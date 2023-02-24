@@ -190,7 +190,7 @@
 2022-08: Visible trees - 2D coordinates
 2022-09: Rope physics - 2D coordinates / simulation
 2022-10: CRT Display - VM
-2022-11:
+2022-11: Monkey keep away - simulation
 2022-12:
 2022-13:
 2022-14:
