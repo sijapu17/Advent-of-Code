@@ -192,7 +192,7 @@
 2022-10: CRT Display - VM
 2022-11: Monkey keep away - simulation
 2022-12: Hill climbing - 2D coordinates / A* algorithm
-2022-13:
+2022-13: Packet Comparison - recursion
 2022-14:
 2022-15:
 2022-16:
