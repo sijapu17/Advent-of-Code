@@ -194,7 +194,7 @@
 2022-12: Hill climbing - 2D coordinates / A* algorithm
 2022-13: Packet Comparison - recursion
 2022-14: Falling Sand - 2D coordinates / simulation
-2022-15:
+2022-15: Sensors and beacons - 2D coordinates
 2022-16:
 2022-17:
 2022-18:
