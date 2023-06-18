@@ -204,4 +204,4 @@
 2022-22: Cube traversal - 2D coordinates / simulation
 2022-23: Elf dispersal - 2D coordinates / simulation
 2022-24: Tornado Maze - 2D coordinates / A* algorithm
-2022-25:
+2022-25: SNAFU conversion - base conversion
