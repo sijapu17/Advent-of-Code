@@ -205,3 +205,29 @@
 2022-23: Elf dispersal - 2D coordinates / simulation
 2022-24: Tornado Maze - 2D coordinates / A* algorithm
 2022-25: SNAFU conversion - base conversion
+
+2023-01: Trebuchet Calibaration - string manipulation
+2023-02: Cube counting - set counting
+2023-03: 
+2023-04: 
+2023-05: 
+2023-06: 
+2023-07: 
+2023-08: 
+2023-09: 
+2023-10: 
+2023-11: 
+2023-12: 
+2023-13: 
+2023-14: 
+2023-15: 
+2023-16: 
+2023-17: 
+2023-18: 
+2023-19: 
+2023-20: 
+2023-21: 
+2023-22: 
+2023-23: 
+2023-24: 
+2023-25: 
