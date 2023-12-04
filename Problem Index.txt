@@ -209,7 +209,7 @@
 2023-01: Trebuchet Calibaration - string manipulation
 2023-02: Cube counting - set counting
 2023-03: Gear Ratios - 2D coordinates
-2023-04: 
+2023-04: Scratchcards - simple loops
 2023-05: 
 2023-06: 
 2023-07: 
