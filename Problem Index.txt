@@ -210,8 +210,8 @@
 2023-02: Cube counting - set counting
 2023-03: Gear Ratios - 2D coordinates
 2023-04: Scratchcards - simple loops
-2023-05: 
-2023-06: 
+2023-05: Seed maps - Mapping / Binary Search
+2023-06: Boat Race - Quadratic equation
 2023-07: 
 2023-08: 
 2023-09: 
