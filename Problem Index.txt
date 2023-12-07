@@ -212,7 +212,7 @@
 2023-04: Scratchcards - simple loops
 2023-05: Seed maps - Mapping / Binary Search
 2023-06: Boat Race - Quadratic equation
-2023-07: 
+2023-07: Camel cards - Custom sorting
 2023-08: 
 2023-09: 
 2023-10: 
