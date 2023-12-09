@@ -214,7 +214,7 @@
 2023-06: Boat Race - Quadratic equation
 2023-07: Camel cards - Custom sorting
 2023-08: Ghost Cycles - LCM
-2023-09: 
+2023-09: Polynomial Sequence - simple loops
 2023-10: 
 2023-11: 
 2023-12: 
