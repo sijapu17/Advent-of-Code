@@ -217,7 +217,7 @@
 2023-09: Polynomial Sequence - simple loops
 2023-10: Pipe Maze - BFS
 2023-11: Expanding galaxies - 2D coordinates
-2023-12: 
+2023-12: Spring patterns - Recursive / Cache
 2023-13: 
 2023-14: 
 2023-15: 
