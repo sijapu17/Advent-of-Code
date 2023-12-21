@@ -219,7 +219,7 @@
 2023-11: Expanding galaxies - 2D coordinates
 2023-12: Spring patterns - Recursive / Cache
 2023-13: Reflections - string manipulation
-2023-14: 
+2023-14: Reflector dish - string manipulation / repeating pattern
 2023-15: 
 2023-16: 
 2023-17: 
