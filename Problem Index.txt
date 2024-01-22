@@ -220,7 +220,7 @@
 2023-12: Spring patterns - Recursive / Cache
 2023-13: Reflections - string manipulation
 2023-14: Reflector dish - string manipulation / repeating pattern
-2023-15: 
+2023-15: Lens focusing - simulation
 2023-16: 
 2023-17: 
 2023-18: 
