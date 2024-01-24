@@ -221,7 +221,7 @@
 2023-13: Reflections - string manipulation
 2023-14: Reflector dish - string manipulation / repeating pattern
 2023-15: Lens focusing - simulation
-2023-16: 
+2023-16: Beam splitting - simulation / 2D coordinates
 2023-17: 
 2023-18: 
 2023-19: 
