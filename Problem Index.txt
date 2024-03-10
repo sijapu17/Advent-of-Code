@@ -228,6 +228,6 @@
 2023-20: Pulse Propogation - Simulation / LCM
 2023-21: Step Counter - simulation / interpolation
 2023-22: Falling Bricks - simulation / recursion
-2023-23: 
+2023-23: A Long Walk - BFS / Dijkstra
 2023-24: 
 2023-25: 
