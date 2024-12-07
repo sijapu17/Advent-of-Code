@@ -238,7 +238,7 @@
 2024-04: Wordsearch - 2D coordinates
 2024-05: Ordering manuals - sorting
 2024-06: Guard patrol - simulation / 2D coordinates
-2024-07: 
+2024-07: Operators - arithmetic
 2024-08: 
 2024-09: 
 2024-10: 
