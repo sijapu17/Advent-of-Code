@@ -223,7 +223,7 @@
 2023-15: Lens focusing - simulation
 2023-16: Beam splitting - simulation / 2D coordinates
 2023-17: Crucible maze - 2D coordinates / A* algorithm
-2023-18: Lava Lakes - 2S coordinates / maths
+2023-18: Lava Lakes - 2D coordinates / maths
 2023-19: Machine Parts - Simulation / ranges
 2023-20: Pulse Propogation - Simulation / LCM
 2023-21: Step Counter - simulation / interpolation
@@ -237,7 +237,7 @@
 2024-03: Mul instructions - regex
 2024-04: Wordsearch - 2D coordinates
 2024-05: Ordering manuals - sorting
-2024-06: 
+2024-06: Guard patrol - simulation / 2D coordinates
 2024-07: 
 2024-08: 
 2024-09: 
