@@ -241,7 +241,7 @@
 2024-07: Operators - arithmetic
 2024-08: Antinodes - 2D coordinates
 2024-09: Disk fragmenter - simulation
-2024-10: 
+2024-10: Hiking trails - DFS / 2D coordinates
 2024-11: 
 2024-12: 
 2024-13: 
