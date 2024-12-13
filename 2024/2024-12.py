@@ -47,14 +47,11 @@ for j in range(y_max):
                     elif new_pos not in visited:
                         frontier.append(new_pos)
             total_price+=(perimeter*area) #Part 1
-            sides=0 #Part 2
-            if val=='F':
-                print(side_pieces)
+            sides=0
             for s in side_pieces: #For each piece, check if adjoining piece exists to avoid double-counting
                 if (s[0],s[1]+s[0]*complex(0,1)) not in side_pieces:
                     sides+=1
-            print(f'{val}: {sides*area}')
             discounted_price+=(sides*area) #Part 2
 
 print(total_price)
-print(discounted_price) #934260 too high
+print(discounted_price)

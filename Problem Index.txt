@@ -244,7 +244,7 @@
 2024-10: Hiking trails - DFS / 2D coordinates
 2024-11: Pebbles - simulation / shortcut
 2024-12: Gardens - 2D coordinates / DFS / perimeters
-2024-13: 
+2024-13: Claw machine - Sympy / simultaneous equations
 2024-14: 
 2024-15: 
 2024-16: 
