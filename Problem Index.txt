@@ -249,7 +249,7 @@
 2024-15: Box warehouse - 2D coordinates / simulation
 2024-16: Reindeer maze - 2D coordinates / Dijsktra
 2024-17: 
-2024-18: 
+2024-18: RAM maze - 2D coordinates / BFS / interpolation
 2024-19: 
 2024-20: 
 2024-21: 
