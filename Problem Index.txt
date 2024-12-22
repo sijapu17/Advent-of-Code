@@ -252,7 +252,7 @@
 2024-18: RAM maze - 2D coordinates / BFS / interpolation
 2024-19: Towel orders - recursion / cache
 2024-20: Shortcut maze - 2D coordinates / BFS
-2024-21: 
+2024-21: Recursive keypads - recursion / cache
 2024-22: 
 2024-23: 
 2024-24: 
