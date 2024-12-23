@@ -254,6 +254,6 @@
 2024-20: Shortcut maze - 2D coordinates / BFS
 2024-21: Recursive keypads - recursion / cache
 2024-22: Monkey market - simulation / optimisation
-2024-23: 
+2024-23: LAN party - networks / Bron-Kerbosch
 2024-24: 
 2024-25: 
