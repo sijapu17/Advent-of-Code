@@ -2,7 +2,6 @@
 
 from collections import deque
 import re
-from itertools import combinations
 
 f = open('C:/Users/Simon/OneDrive/Home Stuff/Python/Advent of Code/2024/2024-24.txt')
 contents = f.read()
