@@ -264,8 +264,8 @@
 2025-04: Forklift Rolls - 2D coordinates
 2025-05: Range overlaps - simple loops
 2025-06: Cephalopod maths - parsing
-2025-07:
-2025-08:
+2025-07: Falling tachyons - 2D coordinates / recursion / cache
+2025-08: Junction boxes - 3D coordinates / heapq nsmallest / networks
 2025-09:
 2025-10:
 2025-11:
